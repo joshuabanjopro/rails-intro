@@ -1,0 +1,10 @@
+<h1>What new movie ideas might help the Marvel franchise?</h1>
+
+<p>Some of the new movie ideas we received from fans included the following working titles:</p>
+
+<ul>
+    <% @ideas.each do |idea| %>
+        <li>Scotty from Idaho thinks the next movie we release should be called: <%= idea %> </li>
+    <% end %>
+</ul>
+
